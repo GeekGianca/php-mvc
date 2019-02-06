@@ -35,10 +35,10 @@ if (isset($_SESSION['userSession'])) {
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="../../vendor/design/mdl/mdl.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <script src="../../vendor/js/jquery/jquery-3.3.1.js"></script>
-    <script src="../../vendor/design/mdl/material.min.js"></script>
+    <link rel="stylesheet" href="public/design/mdl/mdl.min.css">
+    <link rel="stylesheet" href="public/styles/styles.css">
+    <script src="public/js/jquery/jquery-3.3.1.js"></script>
+    <script src="public/design/mdl/material.min.js"></script>
     <style>
         #view-source {
             position: fixed;
@@ -56,7 +56,7 @@ if (isset($_SESSION['userSession'])) {
     <div class="page-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="page-title mdl-layout-title">
-            <img id="imageHome" class="optic-logo-image" src="../../vendor/images/optica-logo.png" alt="">
+            <img id="imageHome" class="optic-logo-image" src="public/images/optica-logo.png" alt="">
           </span>
             <!-- Add spacer, to align navigation to the right in desktop -->
             <div class="page-header-spacer mdl-layout-spacer"></div>
@@ -82,7 +82,7 @@ if (isset($_SESSION['userSession'])) {
                 </nav>
             </div>
             <span class="page-mobile-title mdl-layout-title">
-                <img class="optic-logo-image" src="../../vendor/images/optica-logo.png" alt="">
+                <img class="optic-logo-image" src="public/images/optica-logo.png" alt="">
             </span>
             <button class="page-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect"
                     id="more-button">
@@ -115,42 +115,42 @@ if (isset($_SESSION['userSession'])) {
         ?>
         <div class="page-drawer mdl-layout__drawer">
                     <span class="mdl-layout-title">
-                      <img class="optic-logo-image" src="../../vendor/images/optica-logo-white.png" alt="">
+                      <img class="optic-logo-image" src="public/images/optica-logo-white.png" alt="">
                     </span>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/hclinicasv.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/hclinicasv.png" alt="">
                           Historias Clinicas
                         </span>
                 </a>
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/hevoluciones.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/hevoluciones.png" alt="">
                           Hoja de evoluciones
                         </span>
                 </a>
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/citasv.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/citasv.png" alt="">
                           Citas
                         </span>
                 </a>
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/fcompra.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/fcompra.png" alt="">
                           Facturas de compra
                         </span>
                 </a>
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/formulas.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/formulas.png" alt="">
                           Formulas
                         </span>
                 </a>
                 <a class="mdl-navigation__link" href="">
                         <span>
-                          <img class="icon-logo-nav" src="../../vendor/images/citas.png" alt="">
+                          <img class="icon-logo-nav" src="public/images/citas.png" alt="">
                           Pedidos cliente
                         </span>
                 </a>
@@ -191,7 +191,7 @@ if (isset($_SESSION['userSession'])) {
             <?php
             if (!$isLogin){
                 echo '<div class="logo-font optic-create-character">
-                            <a href="register.php"><img src="../../vendor/images/icons8_Enter_24px.png" alt="">Registrate</a>
+                            <a href="register.php"><img src="public/images/icons8_Enter_24px.png" alt="">Registrate</a>
                           </div>';
             }
             ?>
@@ -208,35 +208,35 @@ if (isset($_SESSION['userSession'])) {
             <div class="optic-screens">
                 <div class="optic-wear optic-screen">
                     <a class="optic-image-link" href="">
-                        <img class="optic-screen-image" src="../../vendor/images/vpad-productos.jpg" alt="">
-                        <img class="optic-screen-image" src="../../vendor/images/vpad-productos.jpg" alt="">
+                        <img class="optic-screen-image" src="public/images/vpad-productos.jpg" alt="">
+                        <img class="optic-screen-image" src="public/images/vpad-productos.jpg" alt="">
                     </a>
                     <a class="optic-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Entrega de
                         productos</a>
                 </div>
                 <div class="page-phone optic-screen">
                     <a class="optic-image-link" href="">
-                        <img class="optic-screen-image" src="../../vendor/images/citas-online.png" alt="">
+                        <img class="optic-screen-image" src="public/images/citas-online.png" alt="">
                     </a>
                     <a class="optic-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Citas</a>
                 </div>
                 <div class="optic-tablet optic-screen">
                     <a class="optic-image-link" href="">
-                        <img class="optic-screen-image" src="../../vendor/images/examenes.png" alt="">
+                        <img class="optic-screen-image" src="public/images/examenes.png" alt="">
                     </a>
                     <a class="optic-link mdl-typography--font-regular mdl-typography--text-uppercase"
                        href="">Examenes</a>
                 </div>
                 <div class="page-tv optic-screen">
                     <a class="optic-image-link" href="">
-                        <img class="optic-screen-image" src="../../vendor/images/gafas_banner.png" alt="">
+                        <img class="optic-screen-image" src="public/images/gafas_banner.png" alt="">
                     </a>
                     <a class="optic-link mdl-typography--font-regular mdl-typography--text-uppercase"
                        href="">Productos</a>
                 </div>
                 <div class="page-auto optic-screen">
                     <a class="optic-image-link" href="">
-                        <img class="optic-screen-image" src="../../vendor/images/ex-med-virt.png" alt="">
+                        <img class="optic-screen-image" src="public/images/ex-med-virt.png" alt="">
                     </a>
                     <a class="optic-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left"
                        href="">Muy pronto: atencion virtual</a>
@@ -265,7 +265,7 @@ if (isset($_SESSION['userSession'])) {
             <div class="page-card-container mdl-grid">
                 <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                     <div class="mdl-card__media">
-                        <img src="../../vendor/images/hclinic.jpg" alt="">
+                        <img src="public/images/hclinic.jpg" alt="">
                     </div>
                     <div class="mdl-card__title">
                         <h4 class="mdl-card__title-text">Historia Clinica</h4>
@@ -283,7 +283,7 @@ if (isset($_SESSION['userSession'])) {
 
                 <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                     <div class="mdl-card__media">
-                        <img src="../../vendor/images/hevolution.jpg">
+                        <img src="public/images/hevolution.jpg">
                     </div>
                     <div class="mdl-card__title">
                         <h4 class="mdl-card__title-text">Hoja de evoluciones</h4>
@@ -301,7 +301,7 @@ if (isset($_SESSION['userSession'])) {
 
                 <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                     <div class="mdl-card__media">
-                        <img src="../../vendor/images/pnomina.jpg">
+                        <img src="public/images/pnomina.jpg">
                     </div>
                     <div class="mdl-card__title">
                         <h4 class="mdl-card__title-text">Pago de nomina</h4>
@@ -318,7 +318,7 @@ if (isset($_SESSION['userSession'])) {
                 </div>
                 <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
                     <div class="mdl-card__media">
-                        <img src="../../vendor/images/fmedica.jpg">
+                        <img src="public/images/fmedica.jpg">
                     </div>
                     <div class="mdl-card__title">
                         <h4 class="mdl-card__title-text">Forumla asignada</h4>
@@ -383,7 +383,7 @@ if (isset($_SESSION['userSession'])) {
    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color-text--yellow mdl-color-text--accent">Agendar
     Cita</a>
 <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script src="../../vendor/js/app.js"></script>
+<script src="public/js/app.js"></script>
 <!--Dialog For Quote-->
 <dialog class="mdl-dialog" id="dialog">
     <h4 class="mdl-dialog__title">Solicita tu cita</h4>

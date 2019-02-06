@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a07e57f6-50d2-4563-9b9c-0f4dc55eaf44" name="Default Changelist" comment="" />
+    <list default="true" id="a07e57f6-50d2-4563-9b9c-0f4dc55eaf44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/material.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/mdl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/design/mdl/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/0018341395.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/back_ex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/banner-home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/boptica-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/childrens_eyecare_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/07630036405338_face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/07630036414910_foldedtemple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/07630036437469_foldedtemple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/gm7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ci/lncontacto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/citas-online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/citas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/citasv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/cuando-llevar-a-los-ninos-al-oftalmologo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/emv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/entregap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ex-med-virt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/examen-v.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/examenes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/fcompra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/fmedica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/formulas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/gafas_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/hclinic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/hclinicas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/hclinicasv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/hevoluciones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/hevolution.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/icono-ips-examen-medico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/icons8_Enter_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/icons8_Facebook_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/icons8_Google_Plus_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/icons8_Instagram_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/inventario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/lncontacto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/logcitas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/miranda-banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/oooslide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/ooslide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/optica-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/optica-logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/optica-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/opticslide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/oslide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/pad-productos.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/pnomina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/so.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/visual-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/images/vpad-productos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/js/adminapp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/js/jquery/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/js/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/js/jquery/jquery-3.3.1.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/styles/stylesadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/view.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,70 +93,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/error.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libs/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,10 +116,15 @@
         <option value="$PROJECT_DIR$/libs/model.php" />
         <option value="$PROJECT_DIR$/libs/controller.php" />
         <option value="$PROJECT_DIR$/controllers/error.php" />
-        <option value="$PROJECT_DIR$/controllers/main.php" />
         <option value="$PROJECT_DIR$/libs/view.php" />
+        <option value="$PROJECT_DIR$/views/main/index.php" />
+        <option value="$PROJECT_DIR$/views/error/index.php" />
+        <option value="$PROJECT_DIR$/controllers/main.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1357" />
@@ -95,6 +132,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -111,7 +149,23 @@
             <path>
               <item name="OpticaIJC" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpticaIJC" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpticaIJC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpticaIJC" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpticaIJC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpticaIJC" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpticaIJC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpticaIJC" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -123,6 +177,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gianc\Documents\Programing\Works\OpticaIJC\vendor\images" />
+      <recent name="C:\Users\Gianc\Documents\Programing\Works\OpticaIJC\vendor" />
+      <recent name="C:\Users\Gianc\Documents\Programing\Works\OpticaIJC\vendor\js" />
+      <recent name="C:\Users\Gianc\Documents\Programing\Works\OpticaIJC\vendor\styles" />
+      <recent name="C:\Users\Gianc\Documents\Programing\Works\OpticaIJC\vendor\design" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,24 +209,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549422611219</updated>
-      <workItem from="1549422612819" duration="744000" />
+      <workItem from="1549422612819" duration="2482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="744000" />
+    <option name="totallyTimeSpent" value="2482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12801608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -177,6 +240,27 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12801608" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -186,13 +270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -210,10 +287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/controller.php">
+    <entry file="file://$PROJECT_DIR$/libs/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="320">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -224,17 +301,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/main.php">
+    <entry file="file://$PROJECT_DIR$/libs/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="160">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/js/adminapp.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/js/jquery/jquery-3.3.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/design/mdl/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="176" column="78" selection-start-line="176" selection-start-column="78" selection-end-line="176" selection-end-column="78" />
+          <folding>
+            <element signature="e#648#851#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#648#851#0#PHP" expanded="true" />
+            <element signature="e#12476#12482#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#dialog#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#dialog#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>

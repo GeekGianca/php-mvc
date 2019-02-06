@@ -4,4 +4,8 @@ class View{
     {
         echo "<p>Vista Base</p>";
     }
+
+    function render($param){
+        require '../views/'.$param.'.php';
+    }
 }

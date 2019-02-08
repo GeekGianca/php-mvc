@@ -8,4 +8,8 @@ class Main extends Controller {
     public function render(){
         $this->view->render('main/index');
     }
+
+    function registrarCita(){
+        echo "Registra";
+    }
 }

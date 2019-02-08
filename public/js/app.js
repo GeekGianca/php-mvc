@@ -62,7 +62,7 @@ function openDialog(value, title) {
 
 $(document).on("submit", "#form_appointment", function () {
     event.preventDefault();
-    var url_process = "http://192.168.1.8/Optica-ijc/ajax/schedule_appointment.php";
+    var url_process = "http://192.168.1.8/MVCBase/remoto/registrarcita.php";
     var progress = document.getElementById("progress");
     var error = document.getElementById("error_mssg");
     progress.style.display = 'block';
@@ -124,7 +124,7 @@ function dialogRequest(message) {
 
 $(document).on("submit", "#admin_form", function () {
     event.preventDefault();
-    var url_process = "http://192.168.1.8/Optica-ijc/ajax/login_admin.php";
+    var url_process = "http://192.168.1.8/MVCBase/libs/remote/inicioadmin.php";
     var progress = document.getElementById("progress");
     var error = document.getElementById("error_mssg");
     progress.style.display = 'block';

@@ -5,7 +5,7 @@ $(function () {
 });
 
 document.getElementById("imageHome").addEventListener("click", function () {
-    window.location.href = "index.php";
+    window.location.href = "main";
 });
 
 $(document).on("submit", "#formRegister", function (event) {
@@ -210,15 +210,16 @@ $(document).on("submit", "#user_form", function () {
 });
 
 function adminlogin(){
-    window.location.href = "loginadmin.php";
+    console.log("Entra---");
+    window.location.href = "http://192.168.1.8/MVCBase/inicioadmin";
 }
 
 function userlogin(){
-    window.location.href = "loginuser.php";
+    window.location.href = "http://192.168.1.8/MVCBase/iniciousu";
 }
 
 function logout(){
-    window.location.href = "http://192.168.1.8/Optica-ijc/php/logout.php";
+    window.location.href = "http://192.168.1.8/MVCBase/salir";
 }
 function obtenerdatosformulas(paciente) {
     if (paciente !== undefined){

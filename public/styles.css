@@ -183,6 +183,26 @@ a img{
   background-size: cover;
 }
 
+.optic-be-together-section-none {
+  position: relative;
+  height: 250px;
+  width: auto;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.logo-font-none {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #f30001;
+  font-weight: 600;
+}
+
+.optic-sub-slogan-none {
+  font-size: 50px;
+  padding-top: 50px;
+}
+
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
@@ -508,6 +528,12 @@ a img{
 
   .optic-be-together-section {
     height: 350px;
+  }
+
+  .optic-slogan-none {
+    font-size: 50px;
+    margin: 0 16px;
+    padding-top: 24px;
   }
 
   .optic-slogan {

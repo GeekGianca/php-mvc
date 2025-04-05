@@ -5,111 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e57f6-50d2-4563-9b9c-0f4dc55eaf44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/formulas.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/inicioadmin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/iniciousu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/registro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mainmodel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/indexmodel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/material.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/mdl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/mdl/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/formulasstyles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/0018341395.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/back_ex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner-home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/boptica-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/childrens_eyecare_header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/07630036405338_face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/07630036414910_foldedtemple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/07630036437469_foldedtemple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/gm7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ci/lncontacto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/citas-online.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/citas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/citasv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cuando-llevar-a-los-ninos-al-oftalmologo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/emv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/entregap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ex-med-virt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ex.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/examen-v.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/examenes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fcompra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fmedica.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/formulas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gafas_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hclinic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hclinicas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hclinicasv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hevoluciones.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hevolution.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/icono-ips-examen-medico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/icons8_Enter_24px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/icons8_Facebook_48px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/icons8_Google_Plus_48px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/icons8_Instagram_48px.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/inicioadmin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/iniciouser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/inventario.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lncontacto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logcitas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/miranda-banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oooslide01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/ooslide01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/optica-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/optica-logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/optica-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/opticslide01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oslide01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pad-productos.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pnomina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/register.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/so.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/visual-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vpad-productos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/adminapp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jquery/jquery-3.3.1.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesadmin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remoto/registrarcita.php" beforeDir="false" afterPath="$PROJECT_DIR$/remoto/registrarcita.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/404/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/formulas/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/inicio/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/iniciodmin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/registro/index.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +240,7 @@
       <workItem from="1549626152972" duration="4997000" />
       <workItem from="1549631629994" duration="3874000" />
       <workItem from="1549635528289" duration="7019000" />
-      <workItem from="1743870825820" duration="3147000" />
+      <workItem from="1743870825820" duration="3289000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $response['title'] = "Solicitud realizada";
                     $response['schedule_complete'] = true;
                 } else {
-                    $response['message'] = "Ha ocurrido un error inesperado";
+                    $response['message'] = "Ha ocurrido un 404 inesperado";
                     $response['title'] = "No se puede solicitar";
                     $response['schedule_complete'] = false;
                 }

@@ -1,39 +1,55 @@
 <?php
+
 require_once 'controllers/404.php';
 
 class App
 {
     public function __construct()
     {
-        $url = isset($_GET['url']) ? $_GET['url'] : null;
+        $url = $_GET['url'] ?? '';
         $url = rtrim($url, '/');
+        $url = filter_var($url, FILTER_SANITIZE_URL);
         $url = explode('/', $url);
+        $controllerName = $url[0] ?: 'index';
+        $controllerFile = 'controllers/' . $controllerName . '.php';
+        trigger_error($controllerFile, E_USER_WARNING);
+        if (file_exists($controllerFile)) {
+            require_once $controllerFile;
+            if (class_exists($controllerName)) {
+                $controller = new $controllerName();
+                $controller->loadModel($controllerName);
 
-        //Cuando ingresa sin definir un controlador
-        if (empty($url[0])) {
-            $arccontroller = 'controllers/main.php';
-            require_once $arccontroller;
-            $controller = new Main();
-            $controller->loadmodel('main');
-            $controller->render();
-            return false;
-        }
+                $method = $url[1] ?? 'render';
 
-        $arccontroller = 'controllers/' . $url[0] . '.php';
-
-        if (file_exists($arccontroller)) {
-            require_once $arccontroller;
-            //Se inicia el controlador
-            $controller = new $url[0];
-            //Se carga el modelo
-            $controller->loadModel($url[0]);
-            if (isset($url[1])) {
-                $controller->{$url[1]}();
+                if (method_exists($controller, $method)) {
+                    // iff has additional parameters (/user/edit/1), send
+                    $params = array_slice($url, 2);
+                    call_user_func_array([$controller, $method], $params);
+                } else {
+                    // Fallback render method if not found
+                    if (method_exists($controller, 'render')) {
+                        $controller->render();
+                    } else {
+                        $this->show404("Method '$method' not found in controller '$controllerName'.");
+                    }
+                }
             } else {
-                $controller->render();
+                $this->show404("The class '$controllerName' was not found.");
             }
         } else {
-            $controller = new NotFound();
+            $this->show404("File in controller '$controllerFile' was not found.");
+        }
+    }
+
+    private function show404(string $message = ''): void
+    {
+        $controller = new NotFound();
+        if (method_exists($controller, 'render')) {
+            $controller->render();
+        }
+
+        if ($message) {
+            trigger_error($message, E_USER_WARNING);
         }
     }
 }

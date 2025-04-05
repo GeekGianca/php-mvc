@@ -1,5 +1,8 @@
 <?php
-class Model{
+
+class Model
+{
+    protected Database $db;
 
     public function __construct()
     {

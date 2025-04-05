@@ -1,8 +1,7 @@
 <?php
-class NotFound extends Controller {
+class IndexModel extends Model {
     public function __construct()
     {
         parent::__construct();
-        $this->view->render('404/index');
     }
 }

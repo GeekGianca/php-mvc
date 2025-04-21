@@ -4,23 +4,22 @@ require_once 'controllers/404.php';
 
 class App
 {
+    public string $current;
     public function __construct()
     {
         $url = $_GET['url'] ?? '';
         $url = rtrim($url, '/');
         $url = filter_var($url, FILTER_SANITIZE_URL);
         $url = explode('/', $url);
-        $controllerName = $url[0] ?: 'index';
+        $controllerName = $url[0] ?: 'auth';
+        $currentUrl = $controllerName;
         $controllerFile = 'controllers/' . $controllerName . '.php';
-        trigger_error($controllerFile, E_USER_WARNING);
         if (file_exists($controllerFile)) {
             require_once $controllerFile;
             if (class_exists($controllerName)) {
                 $controller = new $controllerName();
                 $controller->loadModel($controllerName);
-
                 $method = $url[1] ?? 'render';
-
                 if (method_exists($controller, $method)) {
                     // iff has additional parameters (/user/edit/1), send
                     $params = array_slice($url, 2);

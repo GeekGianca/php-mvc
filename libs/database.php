@@ -27,6 +27,7 @@ class Database
             $this->conn->exec('set names utf8');
         } catch (PDOException $e) {
             $this->error = $e->getMessage();
+            trigger_error($e, E_USER_WARNING);
             echo $this->error;
         }
     }
@@ -39,20 +40,12 @@ class Database
     public function bind($params, $value, $type = null): void
     {
         if (is_null($type)) {
-            switch (true) {
-                case is_int($value):
-                    $type = PDO::PARAM_INT;
-                    break;
-                case is_bool($value):
-                    $type = PDO::PARAM_BOOL;
-                    break;
-                case is_null($value):
-                    $type = PDO::PARAM_NULL;
-                    break;
-                default:
-                    $type = PDO::PARAM_STR;
-                    break;
-            }
+            $type = match (true) {
+                is_int($value) => PDO::PARAM_INT,
+                is_bool($value) => PDO::PARAM_BOOL,
+                is_null($value) => PDO::PARAM_NULL,
+                default => PDO::PARAM_STR,
+            };
         }
         $this->stmt->bindValue($params, $value, $type);
     }

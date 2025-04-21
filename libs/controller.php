@@ -12,7 +12,7 @@ class Controller
 
     public function loadModel(string $model): void
     {
-        $modelFile = __DIR__ . DIRECTORY_SEPARATOR . 'models' . DIRECTORY_SEPARATOR . $model . 'Model.php';
+        $modelFile = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'models' . DIRECTORY_SEPARATOR . $model . 'Model.php';
 
         if (file_exists($modelFile)) {
             require_once $modelFile;

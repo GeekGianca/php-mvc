@@ -12,7 +12,7 @@ class View
         if (file_exists($viewFile)) {
             require VIEWS_PATH . $view . '.php';
         } else {
-            trigger_error("La vista '$view' no fue encontrada en '$viewFile'.", E_USER_WARNING);
+            trigger_error("View '$view' was not found in '$viewFile'.", E_USER_WARNING);
         }
     }
 }
